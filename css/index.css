@@ -1,0 +1,174 @@
+/*- #722f37 -- vinho -*/
+/*- #900020 -- avermelhado -*/
+/* #02730A -- verde escuro  */
+/* #D97904 -- laranja       */
+
+/*- NAVBAR -*/
+body {
+    margin-top: 50px;
+    background-color: #900020;
+}
+
+#mainNav {
+    background-color: #3a1c1f;
+    font-family: 'Roboto', sans-serif;
+    
+}
+
+#mainNav li a {
+    color: white;    
+    text-shadow: 2px 2px black;
+}
+
+#mainNav .navbar-brand {
+    color: white;
+    text-shadow: 2px 2px black;
+}
+
+  nav a {
+    padding-top: 10px !important;
+    padding-bottom: 10px !important;
+    font-size: 23px;
+  }
+  
+  nav .navbar-toggle {
+    margin: 13px 15px 13px 0;
+  }
+  
+  .navbar-brand {
+    font-size: 30px;
+  }
+  
+  
+  
+  nav.navbar.shrink {
+    min-height: 35px;
+  }
+  
+  nav.shrink a {
+    padding-top: 10px !important;
+    padding-bottom: 10px !important;
+    font-size: 18px;
+  }
+  
+  nav.shrink .navbar-brand {
+    font-size: 21px;
+  }
+  
+  nav.shrink .navbar-toggle {
+    padding: 4px 5px;
+    margin: 8px 15px 8px 0;
+  }
+  
+  
+  
+/* CARROSEL APRESENTAÇAO */
+
+#car-text-1 {
+    color: #ffffff;
+    text-shadow: 3px 3px black;
+}
+
+header .carousel-inner .item {
+    height: 12vh;
+}
+
+.carousel-caption {
+    padding-bottom: 450px;
+}
+
+/*- SOBRE NOS -*/
+
+#sobre-nos {
+    background-color:#7a2731;
+    font-family: 'Roboto', sans-serif;
+}
+
+#text-sobre {
+    color: #ffffff;
+    text-align: justify
+}
+
+#fac {
+    background-color: #1e90ff;
+}
+
+#ins {
+    background-color: #ffa07a
+}
+
+
+
+/* SERVICOS */
+
+#parallaxBar{
+    height:750px;
+    background-color:#900020;
+    background: url(../assets/images/servi.png) 50% 0 fixed;
+    position: relative; 	
+    }
+
+    
+.caption {
+    position: absolute;
+    left: 0;
+    top: 20%;
+    width: 100%;
+    text-align: center;
+    color: #000;
+  }
+
+/*- TEAM CARDBOX -*/
+
+#team {
+    font-family: 'Montserrat', sans-serif;
+    top: 20%;
+}
+
+#team {
+    background-image: linear-gradient(to bottom, #900020, #190d0e);
+}
+
+.text-team {
+    text-align: center;
+    color: #e9dada;
+    text-shadow: 0px 2px black;
+}
+
+/*- PROJETOS -*/
+
+#projetos {
+    background-color: #190d0e;
+}
+
+#projet-1 {
+    background-color: #515151;
+}
+
+
+#projet-2 {
+    background-color: #515151;
+}
+
+.card-horizontal {
+    display: flex;
+    flex: 1 1 auto;
+}
+
+
+#fon {
+    color: #e9dada;
+}
+
+
+/* - CONTATO */
+
+#cont{
+    height: 750px;
+    background-color:#900020;
+    background: url(../assets/images/awootism.jpg) 50% 0 fixed;    
+    position: 50% 	
+    }
+
+/*- FOOTER -*/
+
