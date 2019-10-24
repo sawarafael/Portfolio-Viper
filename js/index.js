@@ -27,3 +27,29 @@ $('.carousel').carousel({
 
 
 
+const token = "3a3dedb8-f4ae-47ab-a13e-18e36b9742b0";
+const $formContact = document.querySelector("#contats");
+
+const sendForm = event => {
+  event.preventDefault();
+  const message = {
+    name: document.querySelector("#name").value,
+    subject: document.querySelector("#email").value,
+    text: document.querySelector("#message").value
+  };
+  smtpJS(message);
+};
+const smtpJS = message => {
+  try {
+    Email.send(      
+      "Viper.systems.python@gmail.com",
+      `${message.name} - ${message.subject}`,
+      message.text,
+      { token }
+    );
+  } catch (e) {
+    alert("Error");
+  }
+};
+
+$formContact.addEventListener("submit", sendForm);

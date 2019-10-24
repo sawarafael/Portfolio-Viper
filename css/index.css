@@ -6,11 +6,11 @@
 /*- NAVBAR -*/
 body {
     margin-top: 50px;
-    background-color: #900020;
+    background-color: #3a3d44;
 }
 
 #mainNav {
-    background-color: #3a1c1f;
+    background-color: #8f1717;
     font-family: 'Roboto', sans-serif;
     
 }
@@ -80,7 +80,7 @@ header .carousel-inner .item {
 /*- SOBRE NOS -*/
 
 #sobre-nos {
-    background-color:#7a2731;
+    background-color:#474a51;
     font-family: 'Roboto', sans-serif;
 }
 
@@ -103,7 +103,7 @@ header .carousel-inner .item {
 
 #parallaxBar{
     height:750px;
-    background-color:#900020;
+    background-color:#8f1717;
     background: url(../assets/images/servi.png) 50% 0 fixed;
     position: relative; 	
     }
@@ -126,7 +126,7 @@ header .carousel-inner .item {
 }
 
 #team {
-    background-image: linear-gradient(to bottom, #900020, #190d0e);
+    background-image: linear-gradient(to bottom, #474a51, #313237);
 }
 
 .text-team {
@@ -138,7 +138,7 @@ header .carousel-inner .item {
 /*- PROJETOS -*/
 
 #projetos {
-    background-color: #190d0e;
+    background-image: linear-gradient(to bottom, #313237, #3a3d44);
 }
 
 #projet-1 {
@@ -163,12 +163,27 @@ header .carousel-inner .item {
 
 /* - CONTATO */
 
-#cont{
-    height: 750px;
-    background-color:#900020;
-    background: url(../assets/images/awootism.jpg) 50% 0 fixed;    
-    position: 50% 	
-    }
+#cont {
+    background-color: #3a3d44;
+}
 
-/*- FOOTER -*/
+#cont {
+    color: #e9dada;
+}
+
+#contats {
+    background-color: #8f1717;
+}
+
+footer {
+    background: #3a3d44;
+    padding: 40px;
+}
+footer a {
+    color: #f8f9fa!important
+}
+
+#copys {
+    background-color: #5f1713;
+}
 
